@@ -7,13 +7,13 @@ public class HelloWorld {
         int age = 32;
                
         System.out.println(boasvindas);
-        System.out.println("Meu nome é " + nomep + ".");
-        System.out.println("Tenho " + age + " anos.");
+        System.out.println("My name is " + nomep);
+        System.out.println("I'm " + age + " years old.");
         System.out.println(learn);
         
         JOptionPane.showMessageDialog(null, boasvindas);
-        JOptionPane.showMessageDialog(null, "Meu nome é " + nomep);
-        JOptionPane.showMessageDialog(null, "Tenho " + age + " anos.");
+        JOptionPane.showMessageDialog(null, "My name is " + nomep);
+        JOptionPane.showMessageDialog(null, "I'm " + age + " years old.");
         JOptionPane.showMessageDialog(null, learn);
     }
 }
